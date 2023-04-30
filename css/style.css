@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Taviraj:400&display=swap);
+
+body {
+	font-family: Taviraj, sans-serif;
+}
+
+.wrapper {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 1.1;
+	color: #333333;
+	padding-top: 50px;
+	display: inline-block;
+}
+
+h2::after {
+	content: "";
+	display: block;
+	background-color: #333333;
+	height: 1px;
+	width: 30%;
+	margin-top: 8px;
+}
